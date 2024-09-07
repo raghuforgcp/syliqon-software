@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bhargav Portfolio Website HTML CSS | JS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <!-- Add the video element with the video file path -->
+    <video autoplay loop muted playsinline id="backgroundVideo">
+      <source src="Images/background.mp4" type="video/mp4">
+      <!-- Add more <source> elements for other video formats if needed (e.g., WebM, Ogg) -->
+      Your browser does not support the video tag.
+    </video>
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm N.R.Bhargav</div>
+        <div class="text-three">Associate Software Engineer</div>
+        <div class="text-four">From India</div>
+      </div>
+      <div class="button">
+        <button>Hire Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/about.jpg" alt="" />
+        </div>
+        <div class="right">
+          <div class="topic">Innovative Thinking Is My Passion</div>
+          <p>
+            Innovative thinking is my passion, the spark that sparks my curiosity and feeds my creativity. I am always
+            looking for new views and creative approaches to each problem that comes my way. I embrace evolution with open
+            arms and see hurdles as stepping stones to breakthroughs rather than barricades. Whether it's devising unique
+            solutions to challenging challenges or venturing into unexplored territory, I'm constantly ready to push the
+            limits of what's possible. For me, innovative thinking is more than a skill; it is a way of life.
+          </p>
+          <div class="button">
+            <button>Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflects Our Knowledge</div>
+          <p>
+            Expertise in predictive modeling, data processing, and data mining algorithms, as well as hands-on experience
+            architecting, automating, and optimizing mission-critical installations across big infrastructures. Experienced
+            in Configuration Management tools and CI/CD pipeline development. Capable of building, testing, and deploying
+            highly adaptable varied services to translate business and functional qualifications into significant outcomes.
+          </p>
+          <div class="experience">
+            <div class="num">2.5</div>
+            <div class="exp">
+              Years Of <br />
+              Experience
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">AWS</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Data Analysis</div>
+            <div class="per">60%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Python, SQL</div>
+            <div class="per">50%</div>
+          </div>
+          <div class="box">
+            <div class="topic">HTML, CSS, JavScript</div>
+            <div class="per">40%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Data Analysis</div>
+          <p>
+            "Our data analysis service empowers businesses with actionable insights, unlocking the hidden potential of raw
+            data, enabling informed decision-making and driving growth in an ever-changing marketplace."
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <div class="topic">Data Visualization</div>
+          <p>
+            "By transforming complex data into captivating visual narratives, our Data Visualization service provides clarity
+            and understanding, enabling businesses to effectively express their information and confidently make data-driven
+            decisions."
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-aws"></i>
+          </div>
+          <div class="topic">AWS CI/CD</div>
+          <p>
+            "Our AWS CI/CD service accelerates software delivery and increases efficiency by automating the entire software
+            development lifecycle, ensuring seamless integration, continuous testing, and reliable deployment to help
+            businesses thrive in the fast-paced world of cloud computing."
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="far fa-paper-plane"></i>
+          </div>
+          <div class="topic">Drone Development</div>
+          <p>
+            "Our Drone Development service pushes the boundaries of innovation by utilizing cutting-edge technology to design
+            and build custom drones, delivering tailored solutions that revolutionize industries ranging from aerial
+            surveillance to logistics and beyond."
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="far fa-handshake"></i>
+          </div>
+          <div class="topic">Consultant</div>
+          <p>
+            "By providing personalized guidance and strategic insights, our Consulting service enables small businesses and
+            startups to navigate the competitive landscape, realize their full potential, and achieve long-term success."
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-slack"></i>
+          </div>
+          <div class="topic">Apps Development</div>
+          <p>
+            "Our Apps Development service transforms ideas into intuitive and high-performance mobile and web applications,
+            delivering seamless user experiences, cutting-edge functionality, and scalable solutions to help businesses
+            thrive in the digital age."
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic">Have Any Project?</div>
+        <p>
+          "If you have any exciting projects in mind, don't hesitate to get in touch with me through email at
+          nadintibhargav@gmail.com, connect on LinkedIn at
+          <a href="https://www.linkedin.com/in/nrbhargav" target="_blank">https://www.linkedin.com/in/nrbhargav</a>, or simply
+          give me a call at 8328098429. Looking forward to collaborating with you!"
+        </p>
+        <div class="button">
+          <button>Let's Chat</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">N.R.Bhargav</a> | &#169; 2023 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
